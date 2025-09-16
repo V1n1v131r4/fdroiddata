@@ -1,0 +1,36 @@
+Categories:
+  - Internet
+  - Science & Education
+License: MIT
+AuthorName: Vinícius Vieira
+WebSite: https://github.com/V1n1v131r4/prepapp
+SourceCode: https://github.com/V1n1v131r4/prepapp
+IssueTracker: https://github.com/V1n1v131r4/prepapp/issues
+Changelog: https://github.com/V1n1v131r4/prepapp/releases
+AutoName: PrepApp
+
+RepoType: git
+Repo: https://github.com/V1n1v131r4/prepapp.git
+
+Builds:
+  - versionName: 1.0.1-fdroid
+    versionCode: 1000001
+    commit: v1.0.1-fdroid
+    gradle:
+      - release
+    output: app-release.apk
+
+Summary: App FOSS de preparo e sobrevivência
+Description: |-
+  PrepApp é um aplicativo livre para preparação e sobrevivência.
+  Recursos:
+  • Guia de sobrevivência e primeiros socorros
+  • Alertas e informações climáticas
+  • Informações de marés
+  • Locais próximos úteis
+  • Mapa interativo usando OpenStreetMap (flutter_map)
+  Esta versão F-Droid não inclui Google Play Services, Firebase, anúncios ou compras no app.
+
+AntiFeatures:
+  - None
+
